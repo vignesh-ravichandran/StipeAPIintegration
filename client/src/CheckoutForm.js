@@ -19,7 +19,7 @@ export default function CheckoutForm() {
     //console.log(clientsecret.client_secret);
     // which would refresh the page.
    
-    console.log(clientsecret);
+    //console.log(clientsecret);
 
     if (!stripe || !elements || !clientsecret ||  loading===true) { //
       // Stripe.js has not yet loaded.
