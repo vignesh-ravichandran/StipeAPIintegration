@@ -35,7 +35,7 @@ const SingleState = props =>{
                 }
             }
 
-            const res= await axiox.post('http://localhost:5000/secret',order,config);
+            const res= await axiox.post('/secret',order,config);
            console.log('got data');
 
             dispatch({type:GET_SECRET,payload:res.data});
